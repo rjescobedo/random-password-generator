@@ -7,7 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <div class="container">
+        <h1 class="title">Generate a <span class="title-color">random password</span></h1>
+        <p class="sub-title">Never use an insecure password again.</p>
+        <button class="btn" onclick="randomPassword()">Generate passwords</button>
+        <div class="password-container">
+            <p id="password-one" onclick="copyOne()"></p>
+            <p id="password-two" onclick="copyTwo()"></p>
+        </div>
+    </div>
 <script src="script.js"></script>
 </body>
 </html>
